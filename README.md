@@ -47,9 +47,9 @@ the tree do what you expect; the binaries land in the workspace root's
 
 ## CI
 
-`.github/workflows/ci.yml` calls the shared pipeline in `shed-os/shedos-ci`,
+`.github/workflows/ci.yml` calls the shared pipeline in `shedos-org/shedos-ci`,
 which builds all five packages, runs every `test/*/run.sh`, and asks
-`shed-os/shedos-release` to publish what it built. The suites are
+`shedos-org/shedos-release` to publish what it built. The suites are
 `test/cargo` (the workspace's unit tests) and `test/screensaver` (the
 screensaver binary's read-only modes).
 

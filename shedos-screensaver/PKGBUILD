@@ -41,7 +41,7 @@ backup=(
     'etc/shedos/screensaver.toml'
 )
 
-source=("git+https://github.com/shed-os/shedos-ui.git#tag=$pkgver")
+source=("git+https://github.com/shedos-org/shedos-ui.git#tag=$pkgver")
 sha256sums=('SKIP')
 
 prepare() {

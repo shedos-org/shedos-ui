@@ -25,7 +25,7 @@ members = [
 version = "0.1.0"
 edition = "2021"
 license = "GPL-3.0-or-later"
-repository = "https://github.com/shed-os/shedos-ui"
+repository = "https://github.com/shedos-org/shedos-ui"
 authors = ["ShedOS"]
 rust-version = "1.75"
 

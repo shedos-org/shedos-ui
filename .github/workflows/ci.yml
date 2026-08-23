@@ -9,7 +9,7 @@ permissions:
   contents: write
 jobs:
   pipeline:
-    uses: shed-os/shedos-ci/.github/workflows/package-pipeline.yml@main
+    uses: shedos-org/shedos-ci/.github/workflows/package-pipeline.yml@main
     with:
       packages: '["shedos-greeter","shedos-power","shedos-screensaver","shedos-switcher","shedos-tour"]'
       # Every build clones this repository at its tag and then lets cargo
